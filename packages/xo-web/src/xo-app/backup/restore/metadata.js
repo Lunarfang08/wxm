@@ -171,7 +171,7 @@ export default decorate([
               backup = collection[jobId] = {
                 backups: [],
                 id: jobId,
-                item: `Xen Orchestra (${jobName})`,
+                item: `WXM (${jobName})`, //changed from Xen Orchestra to WXM
                 label: jobName,
                 type: 'XO',
               }

@@ -134,6 +134,7 @@ class XsClientId extends Component {
           <Col smallSize={2}>
             <strong>{_('xsClientId')}</strong>{' '}
             <a href='https://xen-orchestra.com/docs/updater.html#xenserver-updates' target='_blank' rel='noreferrer'>
+              {/* link update */}
               <Icon icon='info' />
             </a>
           </Col>

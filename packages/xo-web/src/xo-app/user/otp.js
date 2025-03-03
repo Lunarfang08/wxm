@@ -18,9 +18,10 @@ export default decorate([
     },
     computed: {
       qrcode: /* async */ ({ secret }, props) =>
-        secret && qrcode.toDataURL(authenticator.keyuri(props.user.email, 'XenOrchestra', secret)),
+        secret && qrcode.toDataURL(authenticator.keyuri(props.user.email, 'WXM', secret)),
       secret: (_, { user }) => user?.preferences?.otp,
     },
+    // 'WXM' in this case is part of the keyuri generation used to create a unique URL for OTP (One-Time Password) generation in the qrcode.toDataURL() method.
   }),
   injectState,
   ({ state: { qrcode, secret }, effects, user }) => (

@@ -170,7 +170,8 @@ const COLUMNS = [
         return (
           <span className='text-danger'>
             {_('proxyUnknownVm')}{' '}
-            <a href='https://xen-orchestra.com/' target='_blank' rel='noreferrer'>
+            <a href='https://theworxme.com/' target='_blank' rel='noreferrer'> 
+            {/* //updated link */}
               {_('contactUs')}
             </a>
           </span>
@@ -183,7 +184,8 @@ const COLUMNS = [
       if (licenses?.length > 1) {
         return (
           <span className='text-danger'>
-            {_('proxyMultipleLicenses')} <a href='https://xen-orchestra.com/'>{_('contactUs')}</a>
+            {_('proxyMultipleLicenses')} <a href='https://theworxme.com/'>{_('contactUs')}</a>
+            {/* href update */}
           </span>
         )
       }

@@ -16,7 +16,8 @@ const HEADER = (
     <Row>
       <Col mediumSize={12}>
         <h2>
-          <Icon icon='menu-about' /> {_('aboutXoaPlan', { xoaPlan: getXoaPlan() })}
+          <Icon icon='menu-about' /> {_('aboutWXMPlan', { xoaPlan: getXoaPlan() })} 
+          {/* updated */}
         </h2>
       </Col>
     </Row>
@@ -84,9 +85,10 @@ export default class About extends Component {
                   <Col mediumSize={6}>
                     <Icon icon='git' size={4} />
                     <h4>
-                      Xen Orchestra, commit{' '}
+                      WXM, commit{' '}
+                      {/* UPDATED FROM XEN TO WXM */}
                       <a
-                        href={'https://github.com/vatesfr/xen-orchestra/commit/' + COMMIT_ID}
+                        href={'https://github.com/vatesfr/xen-orchestra/commit/' + COMMIT_ID} //NEED GITHUB LINK LATER
                         target='_blank'
                         rel='noreferrer'
                       >
@@ -147,7 +149,8 @@ export default class About extends Component {
                           target='_blank'
                           rel='noreferrer'
                         >
-                          https://xen-orchestra.com
+                          https://xen-orchestra.com 
+                          {/* //CANT CHANGE LINK HERE */}
                         </a>
                       ),
                     })}
@@ -183,14 +186,14 @@ export default class About extends Component {
               </Row>
               <Row>
                 <Col mediumSize={6}>
-                  <a href='https://xen-orchestra.com/' target='_blank' rel='noreferrer'>
+                  <a href='https://theworxme.com/' target='_blank' rel='noreferrer'>
                     <Icon icon='help' size={4} />
                     <h4>{_('issues')}</h4>
                   </a>
                   <p className='text-muted'>{_('issuesText')}</p>
                 </Col>
                 <Col mediumSize={6}>
-                  <a href='https://xen-orchestra.com/docs' target='_blank' rel='noreferrer'>
+                  <a href='https://theworxme.com/' target='_blank' rel='noreferrer'>
                     <Icon icon='user' size={4} />
                     <h4>{_('documentation')}</h4>
                   </a>

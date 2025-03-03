@@ -391,7 +391,8 @@ export default class TabAdvanced extends Component {
           </Row>
           <Row>
             <Col>
-              <h3>{_('xenSettingsLabel')}</h3>
+              <h3>{_('WXMSettingsLabel')}</h3> 
+              {/* // updated */}
               <table className='table'>
                 <tbody>
                   <tr>

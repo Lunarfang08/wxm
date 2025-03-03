@@ -529,7 +529,7 @@ const HANDLED_VDI_TYPES = new Set(['system', 'user', 'ephemeral'])
           vdi.$VBDs.length !== 0 || // vdi with a vbd aren't orphans
           !HANDLED_VDI_TYPES.has(vdi.VDI_type) || // only for vdi with handled types
           vdi.size === 0 || // empty vdi aren't considered as orphans
-          (vdi.name_label === 'PVS cache VDI' && vdi.name_description === 'PVS cache VDI') // see https://github.com/vatesfr/xen-orchestra/issues/7938
+          (vdi.name_label === 'PVS cache VDI' && vdi.name_description === 'PVS cache VDI') // see https://github.com/vatesfr/xen-orchestra/issues/7938 //link
         ) {
           return false
         }

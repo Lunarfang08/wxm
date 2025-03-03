@@ -222,6 +222,7 @@ const SchedulePreviewBody = decorate([
               btnStyle='danger'
               // 2020-01-29 Job cancellation will be disabled until we find a way to make it work.
               // See https://github.com/vatesfr/xen-orchestra/issues/4657
+              //GITHUB LINKS
               disabled
               handler={cancelJob}
               handlerParam={job}

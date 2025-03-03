@@ -10,6 +10,7 @@ export const LICENSE_WARNING_BODY = (
       {_('actionsRestricted')}
     </a>{' '}
     {_('counterRestrictionsOptions')}
+    {/* link to be uodated */}
     <ul>
       <li>
         <a href='https://github.com/xcp-ng/xcp/wiki/Upgrade-from-XenServer' rel='noopener noreferrer' target='_blank'>

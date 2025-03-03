@@ -374,7 +374,7 @@ class NoObjectsWithoutServers extends Component {
               <Row>
                 <Col mediumSize={6}>
                   <a
-                    href='https://xen-orchestra.com/docs/'
+                    href='https://theworxme.com/'
                     rel='noopener noreferrer'
                     target='_blank'
                     className='btn btn-link'
@@ -385,7 +385,7 @@ class NoObjectsWithoutServers extends Component {
                 </Col>
                 <Col mediumSize={6}>
                   <a
-                    href='https://xen-orchestra.com/#!/member/support'
+                    href='https://theworxme.com/contacts/' // support link(Later need to update)
                     rel='noopener noreferrer'
                     target='_blank'
                     className='btn btn-link'
@@ -577,7 +577,7 @@ export default class Home extends Component {
 
     // changing the number of items per page should send back to the first page
     //
-    // see https://github.com/vatesfr/xen-orchestra/issues/7350
+    // seeinfo@theworxme.com (need Github link here)
     this._onPageSelection(1)
   }
 
@@ -1016,7 +1016,7 @@ export default class Home extends Component {
               <Tooltip content={_('filterSyntaxLinkTooltip')}>
                 <a
                   className='input-group-addon'
-                  href='https://xen-orchestra.com/docs/manage_infrastructure.html#live-filter-search'
+                  href='https://xen-orchestra.com/docs/manage_infrastructure.html#live-filter-search'  //DOCUMENTATION LINK HERE (Later need to update)
                   rel='noopener noreferrer'
                   target='_blank'
                 >

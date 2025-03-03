@@ -529,7 +529,8 @@ export default class extends Component {
         </Row>
         <Row>
           <Col>
-            <h3>{_('xenSettingsLabel')}</h3>
+            <h3>{_('xenSettingsLabel')}</h3> 
+            {/* COULD CHANGE */}
             <table className='table'>
               <tbody>
                 <tr>

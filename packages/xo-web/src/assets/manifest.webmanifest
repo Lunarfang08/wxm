@@ -1,9 +1,9 @@
 {
-  "name": "Xen Orchestra",
-  "short_name": "XenOrchestra",
+  "name": "The Worx - WXM",
+  "short_name": "WXM",
   "start_url": "./",
   "display": "standalone",
-  "description": "The centralized management, orchestration, backup and cloud-enabler platform for XCP-ng.",
+  "description": "The centralized management, orchestration, backup and cloud-enabler platform for WXM.",
   "icons": [
     {
       "src": "favicon.svg",

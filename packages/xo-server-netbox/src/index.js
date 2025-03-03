@@ -117,7 +117,7 @@ class Netbox {
       name,
       slug: 'xo-test-' + randomSuffix,
       description:
-        "This type has been created by Xen Orchestra's Netbox plugin test. If it hasn't been properly deleted, you may delete it manually.",
+        "This type has been created by WXM Netbox plugin test. If it hasn't been properly deleted, you may delete it manually.",
     })
     const nbClusterTypes = await this.#request(`/virtualization/cluster-types/?name=${encodeURIComponent(name)}`)
 
@@ -374,7 +374,7 @@ class Netbox {
       nbClusterType = await this.#request('/virtualization/cluster-types/', 'POST', {
         name: CLUSTER_TYPE,
         slug: slugify(CLUSTER_TYPE),
-        description: 'Created by Xen Orchestra',
+        description: 'Created by The Worx',
       })
     } else {
       nbClusterType = nbClusterTypes[0]
